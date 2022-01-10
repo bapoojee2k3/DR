@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci_appl" label="DR" max_length="40" name="x_741529_disaster_dr" type="collection">
+    <element audit="true" extends="cmdb_ci_appl" label="DR" max_length="40" name="x_741529_disaster_dr" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_26" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_29" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="encode_utf8=false" label="Business Service" max_length="32" name="u_service" reference="cmdb_ci_service" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SAMD - Verification on SAMD is completed and meets the AstraZeneca compliance re" max_length="40" name="u_choice_23" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Confirmed" sequence="0" value="cf"/>
+                <element inactive_on_update="false" label="Some Items Pending" sequence="1" value="si"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="2" value="na"/>
+                <element inactive_on_update="false" label="Not Started" sequence="3" value="ns"/>
+                <element inactive_on_update="false" label="Waiting for the approval" sequence="4" value="wait"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Business Reason" max_length="40" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Next Technical Test (MM-dd-yyyy)" max_length="40" name="u_glide_date_4" type="glide_date"/>
+        <element label="Exception" max_length="40" name="u_boolean_16" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Business Impact Statement" max_length="300" name="u_string_22" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_36" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Next Technical Test Due (MM-dd-yyyy)" max_length="40" name="u_glide_date_7" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="DR Solution Status" max_length="40" name="u_choice_11" type="string">
             <choice>
                 <element inactive_on_update="false" label="Planning/Development" sequence="0" value="pd"/>
@@ -11,11 +45,77 @@
                 <element inactive_on_update="false" label="Risk Accepted - No DR" sequence="4" value="nodr"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Management, Privacy &amp; Security - Reviewed and confirmed that the data is se" max_length="40" name="u_choice_25" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Confirmed" sequence="0" value="cf"/>
+                <element inactive_on_update="false" label="Some Items Pending" sequence="1" value="si"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="2" value="na"/>
+                <element inactive_on_update="false" label="Not Started" sequence="3" value="ns"/>
+                <element inactive_on_update="false" label="Waiting for the approval" sequence="4" value="wait"/>
+            </choice>
+        </element>
+        <element label="Deviation" max_length="40" name="u_boolean_15" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RPO Achieved at test" max_length="40" name="u_choice_14" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Achieved" sequence="0" value="achieved"/>
+                <element inactive_on_update="false" label="Fail" sequence="1" value="fail"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="2" value="na"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Name(DR)" max_length="300" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_37" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Recovery Plan - next review date due (MM-dd-yyyy)" max_length="40" name="u_glide_date_5" type="glide_date"/>
         <element attributes="encode_utf8=false" label="Production Site Location" max_length="32" name="u_reference_13" reference="imp_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Risk Management Review - Confirm risks were regularly reviewed throughout the pr" max_length="40" name="u_choice_22" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Confirmed" sequence="0" value="cf"/>
+                <element inactive_on_update="false" label="Some Items Pending" sequence="1" value="si"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="2" value="na"/>
+                <element inactive_on_update="false" label="Not Started" sequence="3" value="ns"/>
+                <element inactive_on_update="false" label="Waiting for the approval" sequence="4" value="wait"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_27" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Results of last technical test" max_length="40" name="u_choice_12" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Success" sequence="0" value="success"/>
+                <element inactive_on_update="false" label="Success with Issues" sequence="1" value="successi"/>
+                <element inactive_on_update="false" label="Fail" sequence="2" value="fail"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="3" value="not applicable"/>
+            </choice>
+        </element>
         <element attributes="encode_utf8=false" label="DR Coordinator" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="IT Function" max_length="32" name="u_function" reference="discovery_function_def" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Compliance - Confirm that all the regulatory compliance requirement are met the " max_length="40" name="u_choice_24" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Confirmed" sequence="0" value="cf"/>
+                <element inactive_on_update="false" label="Some Items Pending" sequence="1" value="si"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="2" value="na"/>
+                <element inactive_on_update="false" label="Not Started" sequence="3" value="ns"/>
+                <element inactive_on_update="false" label="Waiting for the approval" sequence="4" value="wait"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Recovery plan - last review date (MM-dd-yyyy)" max_length="40" name="u_glide_date_8" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Application Recovery Plan(ARP)" max_length="40" name="u_string_19" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_38" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="BIA" max_length="40" name="u_choice_21" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
@@ -24,6 +124,28 @@
         </element>
         <element attributes="encode_utf8=false" label="DR Site Location" max_length="32" name="u_reference_16" reference="imp_location" type="reference"/>
         <element attributes="encode_utf8=false" label="Service Director" max_length="32" name="u_reference_15" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Last technical test (MM-dd-yyyy" max_length="40" name="u_glide_date_6" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_28" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_35" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RTO Achieved at test" max_length="40" name="u_choice_13" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Achieved" sequence="0" value="achieved"/>
+                <element inactive_on_update="false" label="Failed" sequence="1" value="failed"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="2" value="na"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="ARP" max_length="40" name="u_choice_18" type="string">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>

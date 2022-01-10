@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_13" table="x_741529_disaster_dr" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_13</element>
+            <name>x_741529_disaster_dr</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:28:21</sys_created_on>
+            <sys_id>4433b3442f0dc110e56f2e5df699b68b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_13</sys_name>
+            <sys_package display_value="Disaster Recovery" source="x_741529_disaster">8361af0c2f49c110e56f2e5df699b6cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Disaster Recovery">8361af0c2f49c110e56f2e5df699b6cc</sys_scope>
+            <sys_update_name>sys_choice_x_741529_disaster_dr_u_choice_13</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:28:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Achieved</label>
+            <language>en</language>
+            <name>x_741529_disaster_dr</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:28:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c33b3442f0dc110e56f2e5df699b68a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:28:21</sys_updated_on>
+            <value>achieved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failed</label>
+            <language>en</language>
+            <name>x_741529_disaster_dr</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:28:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4833b3442f0dc110e56f2e5df699b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:28:22</sys_updated_on>
+            <value>failed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_13</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Applicable</label>
+            <language>en</language>
+            <name>x_741529_disaster_dr</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:28:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c33b3442f0dc110e56f2e5df699b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:28:22</sys_updated_on>
+            <value>na</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

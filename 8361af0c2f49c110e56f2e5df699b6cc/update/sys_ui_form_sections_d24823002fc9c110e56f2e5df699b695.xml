@@ -14,6 +14,62 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-01-10 05:40:45</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:27:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d503b7042f0dc110e56f2e5df699b606</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_741529_disaster_dr" name="x_741529_disaster_dr" sys_domain="global" view="Default view">d24823002fc9c110e56f2e5df699b695</sys_ui_form>
+            <sys_ui_section caption="Testing" display_value="Testing" name="x_741529_disaster_dr" sys_domain="global" view="Default view">d103b7042f0dc110e56f2e5df699b602</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:27:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:27:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d103b7042f0dc110e56f2e5df699b655</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_741529_disaster_dr" name="x_741529_disaster_dr" sys_domain="global" view="Default view">d24823002fc9c110e56f2e5df699b695</sys_ui_form>
+            <sys_ui_section caption="BIA" display_value="BIA" name="x_741529_disaster_dr" sys_domain="global" view="Default view">1503b7042f0dc110e56f2e5df699b603</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:27:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:27:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d03b7042f0dc110e56f2e5df699b658</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_741529_disaster_dr" name="x_741529_disaster_dr" sys_domain="global" view="Default view">d24823002fc9c110e56f2e5df699b695</sys_ui_form>
+            <sys_ui_section caption="ARP" display_value="ARP" name="x_741529_disaster_dr" sys_domain="global" view="Default view">1103b7042f0dc110e56f2e5df699b604</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:27:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:27:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d03b7042f0dc110e56f2e5df699b65c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_741529_disaster_dr" name="x_741529_disaster_dr" sys_domain="global" view="Default view">d24823002fc9c110e56f2e5df699b695</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_741529_disaster_dr" sys_domain="global" view="Default view">1d03b7042f0dc110e56f2e5df699b604</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:27:38</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_741529_disaster_dr</name>
             <roles/>

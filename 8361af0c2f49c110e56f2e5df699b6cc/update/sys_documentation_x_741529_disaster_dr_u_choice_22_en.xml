@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_choice_22" label="Risk Management Review - Confirm risks were regularly reviewed throughout the pr" language="en" table="x_741529_disaster_dr">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_choice_22</element>
+            <help/>
+            <hint/>
+            <label>Risk Management Review - Confirm risks were regularly reviewed throughout the pr</label>
+            <language>en</language>
+            <name>x_741529_disaster_dr</name>
+            <plural>Risk Management Review - Confirm risks were regularly reviewed throughout the pr</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-10 06:49:32</sys_created_on>
+            <sys_id>4e087f4c2f0dc110e56f2e5df699b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Risk Management Review - Confirm risks were regularly reviewed throughout the project and identified risks managed as necessary.</sys_name>
+            <sys_package display_value="Disaster Recovery" source="x_741529_disaster">8361af0c2f49c110e56f2e5df699b6cc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Disaster Recovery">8361af0c2f49c110e56f2e5df699b6cc</sys_scope>
+            <sys_update_name>sys_documentation_x_741529_disaster_dr_u_choice_22_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-10 06:49:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
