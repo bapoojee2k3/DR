@@ -1,3 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci_appl" label="DR" max_length="40" name="x_741529_disaster_dr" type="collection"/>
+    <element extends="cmdb_ci_appl" label="DR" max_length="40" name="x_741529_disaster_dr" type="collection">
+        <element attributes="encode_utf8=false" label="Business Service" max_length="32" name="u_service" reference="cmdb_ci_service" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Impact Statement" max_length="300" name="u_string_22" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="DR Solution Status" max_length="40" name="u_choice_11" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Planning/Development" sequence="0" value="pd"/>
+                <element inactive_on_update="false" label="Pending Testing" sequence="1" value="pt"/>
+                <element inactive_on_update="false" label="Operational" sequence="2" value="op"/>
+                <element inactive_on_update="false" label="SaaS" sequence="3" value="saas"/>
+                <element inactive_on_update="false" label="Risk Accepted - No DR" sequence="4" value="nodr"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name(DR)" max_length="300" name="u_string_2" type="string"/>
+        <element attributes="encode_utf8=false" label="Production Site Location" max_length="32" name="u_reference_13" reference="imp_location" type="reference"/>
+        <element attributes="encode_utf8=false" label="DR Coordinator" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="IT Function" max_length="32" name="u_function" reference="discovery_function_def" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Application Recovery Plan(ARP)" max_length="40" name="u_string_19" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="BIA" max_length="40" name="u_choice_21" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="DR Site Location" max_length="32" name="u_reference_16" reference="imp_location" type="reference"/>
+        <element attributes="encode_utf8=false" label="Service Director" max_length="32" name="u_reference_15" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ARP" max_length="40" name="u_choice_18" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+    </element>
 </database>
