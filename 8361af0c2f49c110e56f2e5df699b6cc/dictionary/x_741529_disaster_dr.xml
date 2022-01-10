@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci_appl" label="DR" max_length="40" name="x_741529_disaster_dr" type="collection"/>
+</database>
